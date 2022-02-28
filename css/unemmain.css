@@ -6,49 +6,53 @@ body {
 
 }
 
-.hero-bg {
+/*.hero-bg {
     background: #A9AAAA url('../images/bg.jpg');
     color: white;
     text-align: center;
     padding-top: 10em;
 }
-
+*/
 header {
-    padding: 1em 5em 5em 5em;
+    font-size: xx-large;
+    padding: 0em 5em 0em 5em;
+    margin: 0;
+    text-align: center;
+    line-height:0px;
+    
+    
+
 }
 
-.hero-bg a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2rem;
 
-}
 
 section {
-    margin: 0 1em;
+    margin: 0em;
+    text-align: center;
+    line-height:0px;
+} ;
+
+Hero-bg {
+
 }
 
-h1 {
-    font-size: 2.5rem;
-    margin: 0 0 1.2em;
+FrontCF {
+    text-align:center
 }
 
-h1{
-    text-transform: uppercase;
-    display: block;
-    font-size: 1.4rem;
-    position: relative;
-    z-index: 1;
+FrontOpts {
+    text-align: center;
+
 }
 
-h1 span::before{
-    content: '';
-    position: absolute;
-    width: 3em;
-    background:rgb(5, 109, 228);
-    height: .4em;
-    bottom: 0;
-    z-index: -1;
-    margin-left: -.3em;
+.logo{
+    width: 200px;
+    text-align: left;
+
+}
+
+.h1{
+    line-height: 40;
+    padding-left: 500px;
+
 }
